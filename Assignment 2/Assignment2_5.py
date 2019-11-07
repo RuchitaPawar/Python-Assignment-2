@@ -2,8 +2,7 @@ def primeNumber(value):
  for x in range(2,value):
    if(value % x == 0):
       return 0
-   else:
-      return 1
+   
 
 
 num1 = input("Enter number:")
